@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearningCss</title>
+</head>
+<h1>just learning css flex/flexbox</h1>
+<body>
+
+    <p>will be using display:flex for every container <br>
+    below justify-content:flex-end <= pushes content right.</p>
+<div id="container">
+<div id="box1"></div>
+<div id="box2"></div>
+<div id="box3"></div>
+    </div>
+    <h1>Justify-Content:space-evenly</h1>
+<p>  I use <b>justify-content: space-evenly;</b> <= this makes even space between all the elements within the yellow container.<br>
+    Even space is made between the yellow container, and the other items within the containers.
+</p>
+    <div id="container2">
+        <div id="box1"></div>
+        <div id="box2"></div>
+        <div id="box3"></div>
+    </div>
+
+<h1>Justify-Content:space-between</h1>
+
+<p> only makes space between the other boxe's, instead of container <br>
+when it has no more space in the container, it sticks to the wall of it.</p>
+    <div id="container3">
+        
+        <div id="box1"></div>
+        <div id="box2"></div>
+        <div id="box3"></div>
+    </div>
+
+<h1>Align-content:Center</h1>
+<p>The center seems to align the item VERTICALLY CENTER from starting position.</p>
+    <div id="container4">
+        
+        <div id="box1"></div>
+        <div id="box2"></div>
+        <div id="box3"></div>
+    </div>
+
+
+    
+<h1>flex-direction:column</h1>
+<p>Takes the last two block, and align it to the bottom of the red box <br>
+while keeping its original order.<br>
+<br>
+
+<i>Note: When Using column-reverse, it just switches the last block with first block. this then
+    reverse's the order of the boxes! this is not shown here.
+</i></p>
+    <div id="container5">
+        
+        <div id="box1"></div>
+        <div id="box2"></div>
+        <div id="box3"></div>
+    </div>
+
+    <h1>flex-direction:ROW-reverse</h1>
+    **Not using regular row
+<p> SImilar to justify-content:flex-end, BUT, when using row-reverse, it switches the order<br>
+just like column-reverse, and it will move to the right side of the container, while changing orders!</p>
+    <div id="container6">
+        
+        <div id="box1"></div>
+        <div id="box2"></div>
+        <div id="box3"></div>
+    </div>
+</body>
+</html>
